@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-color: #C56752;
+    font-family: 'Inter';
+}
+
+.main {
+    background-color: #FFFF;
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    box-shadow: 0px 4px 50px 10px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 60%;
+}
+
+.locker {
+    width: 103px;
+    margin-top: 7%;
+}
+
+h1 {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+#utilisateur h1 {
+    width: 200px;
+    height: 70px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.user {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: auto;
+    height: 65px;
+    border-bottom: 5px solid #C56752;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.53);
+}
+
+.pass {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: auto;
+    height: 65px;
+    border-bottom: 5px solid #C56752;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(0, 0, 0, 0.53);
+}
+
+.btn {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 65px;
+    padding: 5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: linear-gradient(269.88deg, #C56752 -10.17%, #5BB4A9 131.3%, rgba(217, 217, 217, 0) 131.3%);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 39px;
+    color: #FFFFFF;
+    transition: 1s;
+    transition: color 1s ease;
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: 80%;
+    }
+
+    .locker {
+        width: 40%;
+    }
+}

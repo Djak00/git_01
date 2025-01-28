@@ -1,0 +1,207 @@
+/* Style général */
+
+.table-bordered {
+    border: none;
+}
+
+body {
+    background-color: #C56752;
+}
+
+body img {
+    width: 10%;
+}
+
+.container-fluid {
+    background-color: #FFFF;
+    width: 70%;
+    border-radius: 10px;
+    margin: 5% 0 5% 20%;
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Style des champs de formulaire */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #C56752;
+}
+
+/* Style du bouton */
+.btn-primary {
+    background-color: #C56752;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background: #8c3f2d;
+}
+
+#btn-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#btn-index img {
+    width: 20%;
+}
+
+a.btn-index {
+    background-color: #5BB4A9;
+    border: none;
+    margin: 15px auto 15px auto;
+    width: 20%;
+    padding: 20px 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+a.btn-index:hover {
+    background-color: #36968a;
+    transition: all 0.2s ease-in;
+}
+
+/* Style des étiquettes */
+label {
+    font-weight: bold;
+}
+
+/* Style de la zone de texte (remarques) */
+textarea.form-control {
+    resize: none; /* Empêche le redimensionnement de la zone de texte */
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section h1 {
+    color: #3a3939;
+    font-size: 25px;
+    text-align: right;
+    padding: 2%;
+}
+
+section #gauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    min-height: 100%;
+    background-color: #5BB4A9;
+    padding: 1%;
+    box-shadow: 2px 0 20px black;
+    position: fixed;
+    left: 0;
+}
+
+section #gauche p {
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+section #gauche img {
+    width: 70%;
+}
+
+section #gauche .head-gauche {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section #gauche .nav-link {
+    color: #3a3939;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+section #gauche .nav-link:hover {
+    color: #C56752;
+    transition: all 0.2s ease-in;
+}
+
+section #gauche .nav-link i {
+    margin-right: 10px;
+}
+
+section #droite {
+    width: 80%;
+    height: 100%;
+}
+
+.btn-modif {
+    background-color: #5bb4a9;
+    padding: 3px 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-modif:hover {
+    background-color: #3e8c82;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+
+@media (max-width: 767px) {
+    #btn-index img {
+        width: 50%;
+    }
+
+    a.btn-index {
+        width: 50%;
+        font-size: 25px;
+    }
+
+
+    section {
+        flex-direction: column;
+    }
+
+    section #gauche{
+        width: 100%;
+        position: relative;
+        box-shadow: none;
+    }
+
+    section #droite{
+        width: 95%;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .container-fluid {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .btn-primary {
+        margin: 20px 0;
+    }
+}
