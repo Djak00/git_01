@@ -9,7 +9,7 @@ Exo3 = Exercices PHP : Création d'un mini site pour répertorier les exercices,
 
 Exo4 = Programmation Orientée Objet (POO) : Introduction à la POO, création de classes, fonctions, constructeurs, getters/setters, constantes, attributs et méthodes statiques. Exercices pratiques : liste de fruits, panier de fruits, gestion des objets et tableaux.
 
-Exo5 =
+Exo5 = Bases de données, PDO, et Bootstrap : Introduction aux bases de données (création, SQL, requêtes de modification), connexion via PDO, gestion des fruits et paniers avec des classes PHP, affichage et manipulation avec des méthodes spécifiques. Utilisation de Bootstrap (versions 4 et 5) pour créer des menus, cards, tables, formulaires et gérer les actions d'ajout, modification, suppression, ainsi que la stylisation et gestion des interactions avec la base de données.
 
 applicationBtsSIO =
 
