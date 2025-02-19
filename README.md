@@ -1,5 +1,5 @@
-# git_01
-Description_git_01
+# git_01_PHP
+Description_git_01 - projets_php
 
 
 Exo5 = Bases de données, PDO, et Bootstrap : Introduction aux bases de données (création, SQL, requêtes de modification), connexion via PDO, gestion des fruits et paniers avec des classes PHP, affichage et manipulation avec des méthodes spécifiques. Utilisation de 
