@@ -1,16 +1,48 @@
-# git_01_PHP
-Description_git_01 - projets_php
+# 💻 Projets PHP / Web / Mobile – Portfolio de Formation
+
+Bienvenue sur ce dépôt regroupant différents projets réalisés dans le cadre de ma formation en développement web, mobile et back-end.  
+Chaque dossier correspond à un projet ou à des exercices pratiques destinés à consolider mes compétences en PHP, Android, SQL, JavaScript, POO, HTML/CSS et gestion de base de données.
+
+---
+
+## 🚀 Objectifs de ce dépôt
+
+- Montrer la diversité de mes compétences en développement (Web, Mobile, BDD)
+- Présenter des réalisations concrètes issues de ma formation BTS SIO (option SLAM)
+- Illustrer ma capacité à travailler sur des projets complets, en autonomie ou en équipe
+
+---
+
+## 📂 Contenu du dépôt
+
+| Dossier | Description |
+|--------|-------------|
+| [`Exo5`](./Exo5) | **Bases de données, PDO, Bootstrap** : Création et manipulation de bases de données en PHP avec PDO, gestion de paniers/fruits, stylisation avec Bootstrap 4/5. CRUD complet avec interactions dynamiques. |
+| [`appli_android`](./appli_android) | **GSB Mobile (Android)** : Application Android développée sous Android Studio (Java/XML) pour la gestion des comptes rendus de visites médicales. Objectif : améliorer la relation entre visiteurs médicaux, praticiens et équipes. |
+| [`appli_web`](./appli_web) | **GSB Web (Projet E5 BTS)** : Application web pour planifier et rédiger des comptes rendus de visites médicales. Réalisée avec PHP, SQL, JavaScript, Bootstrap, HTML/CSS. Gestion des utilisateurs, sécurité, formulaires dynamiques. |
+| [`programme`](./programme) | **Exercices pratiques en PHP et POO** : Variables, conditions, boucles, fonctions, tableaux, POO avancée, classes, formulaires, sessions, base de données avec PDO. Comprend des cas pratiques de plus en plus poussés. |
+
+---
+
+## 🧠 Compétences mises en œuvre
+
+- ✅ PHP procédural & orienté objet
+- ✅ Programmation Java sous Android Studio
+- ✅ Requêtes SQL, PDO, bases de données relationnelles
+- ✅ Front-end : HTML, CSS, Bootstrap, JavaScript
+- ✅ Conception MVC simplifiée
+- ✅ Travail en équipe et autonomie
+- ✅ Rédaction de documentation et rigueur de développement
+
+---
+
+## 👨‍💻 À propos de moi
+
+Je suis un développeur web et mobile junior, diplômé du **BTS SIO option SLAM**, passionné par le développement back-end et la création d’applications utiles.  
+Je suis à la recherche d’un **poste de développeur PHP / Symfony** dans une entreprise dynamique, où je pourrai continuer à progresser et apporter mes compétences.
+
+---
 
 
-Exo5 = Bases de données, PDO, et Bootstrap : Introduction aux bases de données (création, SQL, requêtes de modification), connexion via PDO, gestion des fruits et paniers avec des classes PHP, affichage et manipulation avec des méthodes spécifiques. Utilisation de 
-Bootstrap (versions 4 et 5) pour créer des menus, cards, tables, formulaires et gérer les actions d'ajout, modification, suppression, ainsi que la stylisation et gestion des interactions avec la base de données.
 
-appli_android = Projet GSB Mobile : Développement d'une application mobile pour la gestion des comptes rendus de visites, en utilisant Android Studio, Java pour la logique et XML pour l'interface. Objectif : 
-améliorer l'efficacité des interactions entre visiteurs médicaux, praticiens et équipes. Compétences : développement d'interface, programmation Java, travail en équipe, respect des délais, et 
-résolution de problèmes techniques.
-
-appli_web = Projet GSB : Développement d'une application pour prévoir des visites médicales et rédiger des comptes-rendus, utilisant HTML, CSS (Bootstrap), JavaScript, PHP et SQL pour le back-end. Sécurité, gestion des droits et fonctionnalités complexes étaient les principaux défis. Réalisé dans le cadre de l'épreuve E5 du BTS Services Informatiques aux Organisations à Sciences-U Lyon, mettant en pratique rigueur, autonomie et travail en équipe.
-
-programme = Exercices PHP et POO : Manipulation des variables, ternaires, tests conditionnels, boucles (for, while), switch, fonctions, tableaux simples et associatifs, objets, méthodes, tableaux de tableaux, et gestion des formulaires avec les méthodes GET/POST. 
-Approfondissement avec la Programmation Orientée Objet (POO), classes, méthodes privées, attributs statiques et manipulation de plusieurs classes. Cas pratiques : gestion de variables, tableaux, POO, gestion d'images, listes déroulantes, sessions et bases de 
-données (création, installation, PDO).
+> Merci d’avoir consulté mon dépôt, au plaisir d’échanger avec vous ! 🤝
